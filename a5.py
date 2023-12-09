@@ -8,10 +8,10 @@
 
 def print_digits(n):
     if n > 0:
-        last_digit = n % 10 # Находим последнею цифру числа
-        print(last_digit, end=" ") # Выводим в консоль
+        last_digit = n % 10
+        print(last_digit, end=" ") # 
 
-        print_digits(n // 10) # Вызываем рекурсивно для оставшейся части числа
+        print_digits(n // 10) #
 
 
 
